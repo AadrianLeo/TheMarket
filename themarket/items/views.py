@@ -40,7 +40,7 @@ def new(request):
             return redirect('items:detail', pk=item.id)
     else:
         form = NewItemForm()
-    return render(request, './Templates/items/form.html', {'form': form, 'title': 'New item',})
+    return render(request, 'items/form.html', {'form': form, 'title': 'New item',})
 
 
 @login_required
