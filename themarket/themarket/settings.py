@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ty&dp(v4nvto+^-1ros*^_rtd_-rw%wzs+o=ek^su+zx5v6yzl
 DEBUG = False
 
 # ALLOWED_HOSTS = ['127.0.0.1']
-ALLOWED_HOSTS = ['the-market.vercel.app','.vercel.app', '.now.sh','the-market-46qvfev59-aadrianleo.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
