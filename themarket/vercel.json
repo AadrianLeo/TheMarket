@@ -22,6 +22,7 @@
     {
     "src": "/(.*)",
     "dest": "./themarket/wsgi.py"
-    }
+    },
+    { "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
     ]
     }
